@@ -140,7 +140,6 @@ nav{
     float: right;
     list-style: none;
     min-height: 70px;
-    height: 70px;
 }
 
 .nav-bar li {
@@ -192,7 +191,6 @@ nav{
     width: 100%;
     background-color: rgba(51, 51, 51, 0.95);
     min-height: 70px;
-    height: 70px;
     -webkit-box-shadow: 0 2px 2px rgba(46, 46, 46, 0.5);
     box-shadow: 0 2px 2px rgba(46, 46, 46, 0.5);
     z-index: 9999;
