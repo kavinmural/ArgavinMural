@@ -1,0 +1,270 @@
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Tablets & Laptops (1024px-1200px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1200px) {
+    html, body {
+        font-size: 19px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .big-box {
+        padding: 60px 0;
+        margin: 0;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .filler {
+        min-height: 180px;
+    }
+
+    .about-text {
+        width: 80%;
+    }
+
+    .ttc-logo, .us-logo {
+        height: 160px;
+    }
+
+    .footer {
+        padding: 15px 8px;
+    }
+
+    .footer-icon:link, .footer-icon:visited {
+        font-size: 110%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 3px 3px;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Tablets (768px-1023px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1023px) {
+    html, body {
+        font-size: 17px;
+    }
+
+    .big-box {
+        padding: 40px 0;
+    }
+
+    .filler {
+        min-height: 150px;
+    }
+
+    .col {
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .section-title:after {
+        margin-top: 15px;
+    }
+
+    .logo {
+        height: 45px;
+        margin: 20px 20px;
+    }
+
+    .nav-bar {
+        display: none;
+        float: left;
+    }
+    
+    /* Small Nav */
+
+    .small-menu {
+        display: block;
+    }
+
+    .nav-bar li:first-child {
+        margin-top: 20px;
+    }
+
+    .nav-bar li, .sticky-nav .nav-bar li {
+        display: block;
+        margin: 10px 0 10px 20px;
+        float: left;
+        clear: both;
+        font-size: 130%;
+    }
+
+    .nav-bar li a:link, .nav-bar li a:visited {
+        letter-spacing: 1px;
+        padding: 3px 0;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        opacity: 1;
+    }
+
+    .nav-bar li a:after {
+        display: none;
+        width: 0;
+        height: 0;
+        margin: 0;
+        opacity: 0;
+    }
+
+    /*************/
+
+    .social-btn:link, .social-btn:visited {
+        font-size: 120%;
+        padding: 8px 0;
+        min-width: 35px;
+    }
+
+    .proj-section:first-child {
+        width: 46%;
+        margin-left: 27%;
+        min-height: 410px;
+    }
+
+    .proj-section {
+        width: 46%;
+        margin-left: 27%;
+        min-height: 410px;
+    }
+
+    .section-title {
+        margin-bottom: 15px;
+    }
+
+    .about-text {
+        width: 90%;
+    }
+
+    .ttc-logo, .us-logo {
+        height: 130px;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Phones/Small Tablets (481px-767px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .big-box {
+        padding: 30px 0;
+    }
+
+    .filler {
+        min-height: 120px;
+    }
+
+    .name {
+        letter-spacing: 6px;
+    }
+
+    .about-text {
+        font-size: 95%;
+    }
+
+    .proj-desc {
+        font-size: 95%;
+    }
+
+    .proj-section {
+        width: 60%;
+        margin-left: 20%;
+        min-height: 390px;
+    }
+
+    .proj-section:first-child {
+        width: 60%;
+        margin-left: 20%;
+        min-height: 390px;
+    }
+
+    .code-link:link, .code-link:visited {
+        margin-top: 35px;
+    }
+
+    .section-title {
+        margin-bottom: 10px;
+    }
+
+    .ttc-logo, .us-logo {
+        height: 110px;
+    }
+
+    .contact-form {
+        width: 75%;
+    }
+
+    .footer {
+        padding: 10px 6px;
+        min-height: 80px;
+    }
+
+    .footer-icon:link, .footer-icon:visited {
+        font-size: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 2px 2px;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Small Phones (0-480px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    .big-box {
+        padding: 25px 0;
+    }
+
+    .filler {
+        min-height: 100px;
+    }
+
+    .name {
+        letter-spacing: 3px;
+    }
+
+    header .fa-chevron-circle-down {
+        display: none;
+    }
+
+    .name-subtext {
+        letter-spacing: 1px;
+    }
+
+    .proj-section {
+        width: 80%;
+        margin-left: 10%;
+        min-height: 370px;
+    }
+
+    .proj-section:first-child {
+        width: 80%;
+        margin-left: 10%;
+        min-height: 370px;
+    }
+
+    .ttc-logo, .us-logo {
+        height: 100px;
+    }
+
+    .contact-form {
+        width: 85%;
+    }
+}
