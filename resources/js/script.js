@@ -88,13 +88,26 @@ $(document).ready(function() {
         var nav_bar = $('.js--nav-bar');
         nav_bar.slideToggle(200);
 
-        icon_nav = $('.js--small-menu-button');
+        var icon_nav = $('.js--small-menu-button');
         if(icon_nav.hasClass('fa-bars')) {
             icon_nav.addClass('fa-times');
             icon_nav.removeClass('fa-bars');
         } else {
             icon_nav.addClass('fa-bars');
             icon_nav.removeClass('fa-times');
+        }
+    });
+
+    $(window).resize(function() {
+        var icon_nav = document.querySelector('#small-nav');
+        var style_nav = window.getComputedStyle(icon_nav);
+        if (style_nav.display === 'none') {
+            document.querySelector('#nav').removeAttribute('style');
+            var icon_nav = $('.js--small-menu-button');
+            if(icon_nav.hasClass('fa-times')) {
+                icon_nav.addClass('fa-bars');
+                icon_nav.removeClass('fa-times');
+            }
         }
     });
 });
